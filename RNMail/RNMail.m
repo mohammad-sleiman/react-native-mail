@@ -188,6 +188,7 @@ RCT_EXPORT_METHOD(mail:(NSDictionary *)options
     } else {
         RCTLogWarn(@"No callback registered for mail: %@", controller.title);
     }
+    NSLog(@"Here");
     [controller dismissViewControllerAnimated:YES completion:nil];
 }
 
