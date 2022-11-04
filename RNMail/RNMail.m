@@ -166,6 +166,7 @@ RCT_EXPORT_METHOD(mail:(NSDictionary *)options
 {
     NSString *key = RCTKeyForInstance(controller);
     RCTResponseSenderBlock callback = _callbacks[key];
+    RCTLogWarn(@"Checking for callback");
     if (callback) {
         switch (result) {
             case MFMailComposeResultSent:
