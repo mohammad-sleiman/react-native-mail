@@ -2,16 +2,11 @@
   "name": "react-native-mail",
   "version": "6.1.1",
   "description": "A wrapper on top of MFMailComposeViewController from iOS and Mail Intent on android",
-  "author": {
-    "name": "Chirag Jain",
-    "email": "jain_chirag04@yahoo.com",
-    "url": "http://chiragjain.tumblr.com"
-  },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:chirag04/react-native-mail.git"
-  },
+    "url": "https://github.com/mohammad-sleiman/react-native-mail.git"
+ }
   "keywords": [
     "react",
     "react-native",
@@ -20,5 +15,6 @@
     "android",
     "email",
     "MFMailComposeViewController"
-  ]
+  ],
+  
 }
